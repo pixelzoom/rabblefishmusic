@@ -1,8 +1,0 @@
-AuthType Basic
-AuthName "restricted area"
-AuthUserFile /data/17/1/112/100/1112100/user/1170387/htdocs/rabblefishmusic/fishbowl/.access.pwd
-AuthPam_Enabled off
-
-require valid-user
-Options +Indexes
-IndexOptions FancyIndexing SuppressHTMLPreamble NameWidth=55
