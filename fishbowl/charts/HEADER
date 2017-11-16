@@ -1,5 +1,8 @@
 <html>
-<img src="../images/charts.jpg" border=0>
-<p>
-<big>Charts for Rabblefish tunes</big>
+<table style="text-align:center">
+<tr>
+<td><img src="../images/charts.jpg" border=0></td>
+<td><big>Charts for Rabblefish tunes</big></td>
+</tr>
+</table>
 </html>

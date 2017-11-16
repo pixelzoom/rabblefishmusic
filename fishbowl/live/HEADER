@@ -1,5 +1,8 @@
 <html>
-<img src="../images/live.jpg" border=0>
-<p>
-<big>Live recordings of Rabblefish</big>
+<table style="text-align:center">
+<tr>
+<td><img src="../images/live.jpg" border=0></td>
+<td><big>Live recordings of Rabblefish</big></td>
+</tr>
+</table>
 </html>

@@ -1,5 +1,8 @@
 <html>
-<img src="../images/mp3.jpg" border=0>
-<p>
-<big>Reference recordings for Rabblefish tunes</big>
+<table style="text-align:center">
+<tr>
+<td><img src="../images/mp3.jpg" border=0></td>
+<td><big>Reference recordings for Rabblefish tunes</big></td>
+</tr>
+</table>
 </html>

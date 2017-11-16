@@ -1,5 +1,8 @@
 <html>
-<img src="../images/other.jpg" border=0/>
-<p>
-<big>Other stuff related to Rabblefish</big>
+<table style="text-align:center">
+<tr>
+<td><img src="../images/other.jpg" border=0></td>
+<td><big>Other stuff related to Rabblefish</big></td>
+</tr>
+</table>
 </html>
