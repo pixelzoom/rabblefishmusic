@@ -1,0 +1,3 @@
+Options +Indexes
+IndexOrderDefault Descending Name
+IndexOptions FancyIndexing SuppressHTMLPreamble NameWidth=55
