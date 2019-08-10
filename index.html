@@ -51,40 +51,29 @@ Contact
 Videos
 </div>
 <br>
-<iframe width="700" height="394" src="https://www.youtube.com/embed/videoseries?list=PL_A_uLCIWVyP96H0DBGIkSDQqSijxyEPp" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe id="videoFrame" width="700" height="394" src="https://www.youtube.com/embed/videoseries?list=PL_A_uLCIWVyP96H0DBGIkSDQqSijxyEPp" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
 <table cellspacing="10">
 <tr>
 <td>
-<a href="https://youtu.be/EmWCqXyPPu4" target="_blank">
-<img src="images/Doctor-Dirt-thumbnail.jpg" width="220" />
-</a>
+<a><img id="doctorDirtImage" src="images/Doctor-Dirt-thumbnail.jpg" width="220" style="cursor: pointer;" /></a>
 </td>
 <td>
-<a href="https://youtu.be/5beD9c9VO2M" target="_blank">
-<img src="images/Veintiuno-thumbnail.jpg" width="220" />
-</a>
+<img id="veintiunoImage" src="images/Veintiuno-thumbnail.jpg" width="220" style="cursor: pointer;" />
 <td>
-<a href="https://youtu.be/zxdnYDsyLHk" target="_blank">
-<img src="images/Snowflower-thumbnail.jpg" width="220" />
+<img id="snowflowerImage" src="images/Snowflower-thumbnail.jpg" width="220" style="cursor: pointer;" />
 </a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://youtu.be/aWbTXANOvKg" target="_blank">
-<img src="images/Lightning-On-Jupiter-thumbnail.jpg" width="220" />
-</a>
+<img id="lightningImage" src="images/Lightning-On-Jupiter-thumbnail.jpg" width="220" style="cursor: pointer;" />
 </td>
 <td>
-<a href="https://youtu.be/vMY0_0uYihM" target="_blank">
-<img src="images/Fee-Five-Four-Funk-thumbnail.jpg" width="220" />
-</a>
+<img id="feeFiveFourFunkImage" src="images/Fee-Five-Four-Funk-thumbnail.jpg" width="220" style="cursor: pointer;" />
 </td>
 <td>
-<a href="https://youtu.be/tJ-r93dRh_I" target="_blank">
-<img src="images/Fractal-Pizza-thumbnail.jpg" width="220" />
-</a>
+<img id="fractalPizzaImage" src="images/Fractal-Pizza-thumbnail.jpg" width="220" style="cursor: pointer;" />
 </td>
 </tr>
 </table>
@@ -229,5 +218,38 @@ Copyright &copy; 2015-2019 Chris Malley - All Rights Reserved
 </div>
 </div>
 </center>
+<script type="text/javascript">
+
+// Swap the video iframe's src element and play immediately.
+// The URL is from YouTube's embedded code snippet.
+function playVideo( url ) {
+  document.getElementById( 'videoFrame' ).src = url + '?autoplay=1';
+}
+
+document.getElementById( 'doctorDirtImage' ).onclick = () => { 
+  playVideo( 'https://www.youtube.com/embed/EmWCqXyPPu4' );
+}
+
+document.getElementById( 'veintiunoImage' ).onclick = () => { 
+  playVideo( 'https://www.youtube.com/embed/5beD9c9VO2M' );
+}
+
+document.getElementById( 'snowflowerImage' ).onclick = () => { 
+  playVideo( 'https://www.youtube.com/embed/zxdnYDsyLHk' );
+}
+
+document.getElementById( 'lightningImage' ).onclick = () => { 
+  playVideo( 'https://www.youtube.com/embed/aWbTXANOvKg' );
+}
+
+document.getElementById( 'feeFiveFourFunkImage' ).onclick = () => { 
+  playVideo( 'https://www.youtube.com/embed/vMY0_0uYihM' );
+}
+
+document.getElementById( 'fractalPizzaImage' ).onclick = () => { 
+  playVideo( 'https://www.youtube.com/embed/tJ-r93dRh_I' );
+}
+
+</script>
 </body>
 </html>
