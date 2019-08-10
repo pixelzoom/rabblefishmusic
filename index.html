@@ -214,35 +214,37 @@ Copyright &copy; 2015-2019 Chris Malley - All Rights Reserved
 // JavaScript
 //================================================================
 
+'use strict';
+
 // Swap the video iframe's src element and play immediately.
 // The URL is from YouTube's embedded code snippet.
 function playVideo( url ) {
   document.getElementById( 'videoFrame' ).src = url + '?autoplay=1';
 }
 
-document.getElementById( 'doctorDirtImage' ).onclick = () => { 
+document.getElementById( 'doctorDirtImage' ).onclick = function() { 
   playVideo( 'https://www.youtube.com/embed/EmWCqXyPPu4' );
-}
+};
 
-document.getElementById( 'veintiunoImage' ).onclick = () => { 
+document.getElementById( 'veintiunoImage' ).onclick = function() { 
   playVideo( 'https://www.youtube.com/embed/5beD9c9VO2M' );
-}
+};
 
-document.getElementById( 'snowflowerImage' ).onclick = () => { 
+document.getElementById( 'snowflowerImage' ).onclick = function() { 
   playVideo( 'https://www.youtube.com/embed/zxdnYDsyLHk' );
-}
+};
 
-document.getElementById( 'lightningOnJupiterImage' ).onclick = () => { 
+document.getElementById( 'lightningOnJupiterImage' ).onclick = function() { 
   playVideo( 'https://www.youtube.com/embed/aWbTXANOvKg' );
-}
+};
 
-document.getElementById( 'feeFiveFourFunkImage' ).onclick = () => { 
+document.getElementById( 'feeFiveFourFunkImage' ).onclick = function() { 
   playVideo( 'https://www.youtube.com/embed/vMY0_0uYihM' );
-}
+};
 
-document.getElementById( 'fractalPizzaImage' ).onclick = () => { 
+document.getElementById( 'fractalPizzaImage' ).onclick = function() { 
   playVideo( 'https://www.youtube.com/embed/tJ-r93dRh_I' );
-}
+};
 
 //================================================================
 </script>
